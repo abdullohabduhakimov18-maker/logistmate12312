@@ -170,7 +170,7 @@ const translations: Translations = {
   level3Title: { en: 'Level 3', ru: 'Уровень 3', uz: '3-daraja' },
   level4Title: { en: 'Level 4', ru: 'Уровень 4', uz: '4-daraja' },
   level1Desc: { en: 'Test your fundamental logistics knowledge', ru: 'Проверьте свои базовые знания логистики', uz: 'Logistika bo\'yicha asosiy bilimlaringizni sinab ko\'ring' },
-  level2Desc: { en: 'Challenge yourself with advanced logistics scenarios', ru: 'Испытайте себя в продвинутых сценариях логис����������ики', uz: 'Murakkab logistika ssenariylari bilan o\'zingizni sinab ko\'ring' },
+  level2Desc: { en: 'Challenge yourself with advanced logistics scenarios', ru: 'Испытайте себя в продвинутых сценариях логис��ики', uz: 'Murakkab logistika ssenariylari bilan o\'zingizni sinab ko\'ring' },
   level3Desc: { en: 'Master complex logistics operations management', ru: 'Освойте управление сложными логистическими операциями', uz: 'Murakkab logistika operatsiyalarini boshqarishni o\'zlashtiring' },
   level4Desc: { en: 'Demonstrate mastery of advanced logistics concepts', ru: 'Продемонстрируйте мастерство в продвинутых концепциях логистики', uz: 'Ilg\'or logistika tushunchalari bo\'yicha mahoratingizni namoyish eting' },
   unlockLevel2: { en: 'Complete Level 1 with 90% to unlock Level 2', ru: 'Пройдите уровень 1 на 90%, чтобы разблокировать уровень 2', uz: '2-darajani ochish uchun 1-darajani 90% bilan yakunlang' },
@@ -208,7 +208,7 @@ const translations: Translations = {
   },
   updateFieldDesc: {
     en: 'In the fast-paced world of logistics, information is just as important as the physical cargo. The "Update" function is the heartbeat of supply chain visibility, providing critical data points throughout the lifecycle of a shipment:\n\n• Real-Time Tracking: Utilizing GPS and ELD data to provide precise location coordinates of the vehicle.\n• Status Milestones: Automated or manual notifications for key events like "Arrived at Shipper," "Loaded," "In Transit," and "Delivered."\n• ETA Management: Constantly recalculating the Estimated Time of Arrival based on traffic, weather, and driver hours of service.\n• Exception Reporting: Immediate notification of delays, breakdowns, or accidents, allowing for proactive contingency planning.\n• Documentation: Digital updates often include the uploading of Bill of Lading (BOL) or Proof of Delivery (POD) documents.\n\nConsistent and accurate updates build trust with customers, reduce "where is my truck" inquiries, and allow for better planning at both the shipping and receiving docks.',
-    ru: 'В быстро меняющемся мире логистики информация так же важна, как и сам груз. Функция «Обновление» — это сердце прозрачности цепочки поставок, предоставляющая критически важные данные на протяжении всего жизненного цикла груза:\n\n• Отслеживание в реальном времени: Использование данных GPS и ELD для предоставления точных координат местоположения транспортного средства.\n• Статусные вехи: Автоматические или ручные уведомления о ключевых событиях, таких как «Прибыл к отправителю», «Загружен», «В пути» и «Доставлен».\n• Управление ETA: Постоянный пересчет расчетного време��и прибытия на основе трафика, погоды и часов работы водителя.\n• Отчетность об исключениях: Немедленное уведомление о задержках, поломках или авариях, что позволяет заблаговременно планировать действия в чрезвычайных си��у��ци����х.\n• ����оку��ентация: Цифровые обновления часто включают загрузку коносамента (BOL) или подтверждения доставки (POD).\n\nПоследовательные и точные обновления укрепляют доверие клиентов, сокращают количество запросов «где мой грузовик» и позволяют лучше планировать работу как на погрузочных, так и на разгрузочных платформах.',
+    ru: 'В быстро меняющемся мире логистики информация так же важна, как и сам груз. Функция «Обновление» — это сердце прозрачности цепочки поставок, предоставляющая критически важные данные на протяжении всего жизненного цикла груза:\n\n• Отслеживание в реальном времени: Использование данных GPS и ELD для предоставления точных координат местоположения транспортного средства.\n• Статусные вехи: Автоматические или ручные уведомления о ключевых событиях, таких как «Прибыл к отправителю», «Загружен», «В пути» и «Доставлен».\n• Управление ETA: Постоянный пересчет расчетного времени прибытия на основе трафика, погоды и часов работы водителя.\n• Отчетность об исключениях: Немедленное уведомление о задержках, поломках или авариях, что позволяет заблаговременно планировать действия в чрезвычайных ситуациях.\n• ����оку��ентация: Цифровые обновления часто включают загрузку коносамента (BOL) или подтверждения доставки (POD).\n\nПоследовательные и точные обновления укрепляют доверие клиентов, сокращают количество запросов «где мой грузовик» и позволяют лучше планировать работу как на погрузочных, так и на разгрузочных платформах.',
     uz: 'Logistikaning shiddatli dunyosida ma\'lumot jismoniy yuk kabi muhimdir. "Yangilanish" funktsiyasi ta\'minot zanjiri ko\'rinishining yuragi bo\'lib, yukning butun hayot aylanishi davomida muhim ma\'lumot nuqtalarini taqdim etadi:\n\n• Haqiqiy vaqtda kuzatish: Transport vositasining aniq joylashuv koordinatalarini taqdim etish uchun GPS va ELD ma\'lumotlaridan foydalanish.\n• Holat bosqichlari: "Yuk jo\'natuvchiga yetib keldi", "Yuklandi", "Tranzitda" va "Yetkazib berildi" kabi asosiy voqealar uchun avtomatlashtirilgan yoki qo\'lda bildirishnomalar.\n• ETA boshqaruvi: Trafik, ob-havo va haydovchining ish soatlari asosida taxminiy yetib kelish vaqtini (ETA) doimiy ravishda qayta hisoblash.\n• Istisno hisoboti: Kechikishlar, buzilishlar yoki baxtsiz hodisalar haqida darhol xabar berish, bu esa faol favqulodda rejalashtirish imkonini beradi.\n• Hujjatlashtirish: Raqamli yangilanishlar ko\'pincha yuk xati (BOL) yoki yetkazib berishni tasdiqlovchi hujjatlarni (POD) yuklashni o\'z ichiga oladi.\n\nDoimiy va aniq yangilanishlar mijozlar bilan ishonchni mustahkamlaydi, "yuk mashinam qayerda" degan so\'rovlarni kamaytiradi va yuk ortish hamda qabul qilish joylarida yaxshiroq rejalashtirish imkonini beradi.'
   },
   dispatchFieldDesc: {
@@ -228,7 +228,7 @@ const translations: Translations = {
   tryAgain: { en: 'Try Again', ru: 'Попробовать снова', uz: 'Yana urinib ko\'ring' },
   backToLevels: { en: 'Back to Levels', ru: 'Назад к уровням', uz: 'Darajalarga qaytish' },
   congratulations: { en: 'Congratulations!', ru: 'Поздравляем!', uz: 'Tabriklaymiz!' },
-  keepLearning: { en: 'Keep learning to unlock the next level.', ru: 'Пр����должа��те учиться, чтобы ра��блокировать следующий уровень.', uz: 'Keyingi darajani ochish uchun o\'rganishda davom eting.' },
+  keepLearning: { en: 'Keep learning to unlock the next level.', ru: 'Продолжайте учиться, что��ы ра��блокировать следующий уровень.', uz: 'Keyingi darajani ochish uchun o\'rganishda davom eting.' },
   safetyBasicsTitle: { en: 'Get Road Smart', ru: 'Будьте умнее на дороге', uz: 'Yo\'lda aqlli bo\'ling' },
   safetyBasicsSub: { 
     en: 'Understand the 7 Behavior Analysis and Safety Improvement Categories (BASICs) to ensure safety and compliance.', 
@@ -260,7 +260,7 @@ const translations: Translations = {
   hosRulesTitle: { en: 'Key HOS Rules', ru: 'Основные правила HOS', uz: 'Asosiy HOS qoidalari' },
   hosRulesDesc: { en: 'The FMCSA enforces strict limits on driving and working hours for commercial motor vehicle (CMV) drivers.', ru: 'FMCSA вводит строгие ограничения на часы вождения и работы для водителей коммерческих транспортных средств (CMV).', uz: 'FMCSA tijorat avtotransport vositalari (CMV) haydovchilari uchun haydash va ish soatlariga qat\'iy cheklovlar qo\'yadi.' },
   hosBestPracticesTitle: { en: 'HOS Best Practices', ru: 'Лучшие практики HOS', uz: 'HOS bo\'yicha eng yaxshi amaliyotlar' },
-  hosBestPracticesDesc: { en: 'Strategies to maintain compliance and ensure driver safety.', ru: 'Стратегии по соблюдению требований и обеспечению бе��опасн��сти водителей.', uz: 'Muvofiqlikni saqlash va haydovchilar xavfsizligini ta\'minlash strategiyalari.' },
+  hosBestPracticesDesc: { en: 'Strategies to maintain compliance and ensure driver safety.', ru: 'Стратегии по соблюдению требований и обеспечению безопасности водителей.', uz: 'Muvofiqlikni saqlash va haydovchilar xavfsizligini ta\'minlash strategiyalari.' },
   fmcsaLinksTitle: { en: 'Official FMCSA Resources', ru: 'Официальные ресурсы FMCSA', uz: 'Rasmiy FMCSA resurslari' },
   fmcsaLinksDesc: { en: 'Access the latest regulations and guidance directly from the source.', ru: 'Получите доступ к последним правилам и рекомендациям непосредственно из первоисточника.', uz: 'Eng so\'nggi qoidalar va ko\'rsatmalarga bevosita manbadan kiring.' },
   hosRule1: { en: '11-Hour Driving Limit: May drive a maximum of 11 hours after 10 consecutive hours off duty.', ru: '11-часовой лимит вождения: Можно управлять автомобилем максимум 11 часов после 10 часов отдыха подряд.', uz: '11 soatlik haydash chegarasi: 10 soatlik ketma-ket dam olishdan keyin maksimal 11 soat haydash mumkin.' },
@@ -316,19 +316,19 @@ const translations: Translations = {
   eldExemptionsBullet1: { en: 'Drivers using paper logs for no more than 8 days in 30-day period', ru: 'Водители, использующие бумажные журналы не более 8 дней в течение 30-дневного периода', uz: '30 kunlik muddat ichida 8 kundan ortiq bo\'lmagan qog\'oz jurnallardan foydalanadigan haydovchilar' },
   eldExemptionsBullet2: { en: 'Short-haul drivers operating within limited radius', ru: 'Водители, осуществляющие перевозки на короткие расстояния в ограниченном радиусе', uz: 'Cheklangan radiusda ishlaydigan qisqa masofali haydovchilar' },
   eldExemptionsBullet3: { en: 'Vehicles with engines manufactured before year 2000', ru: 'Транспортные средства с двигателями, выпущенными до 2000 года', uz: 'Dvigatellari 2000-yildan oldin ishlab chiqarilgan transport vositalari' },
-  driverRespBullet1: { en: 'Log in to the ELD each day', ru: 'Входите в ELD каждый ��ень', uz: 'Har kuni ELD-ga kiring' },
+  driverRespBullet1: { en: 'Log in to the ELD each day', ru: 'Входите в ELD каждый день', uz: 'Har kuni ELD-ga kiring' },
   driverRespBullet2: { en: 'Certify records at the end of each shift', ru: 'Заверяйте записи в конце каждой смены', uz: 'Har bir smena oxirida yozuvlarni tasdiqlang' },
   driverRespBullet3: { en: 'Report malfunctions immediately', ru: 'Немедленно сообщайте о неисправностях', uz: 'Nosozliklar haqida darhol xabar bering' },
   driverRespBullet4: { en: 'Carry user manuals in the vehicle', ru: 'Имейте руководства пользователя в автомобиле', uz: 'Avtomobilda foydalanuvchi qo\'llanmalarini olib yuring' },
   carrierRespBullet1: { en: 'Ensure ELD compliance', ru: 'Обеспечьте соблюдение требований ELD', uz: 'ELD muvofiqligini ta\'minlang' },
   carrierRespBullet2: { en: 'Maintain ELD records for 6 months', ru: 'Храните записи ELD в течение 6 месяцев', uz: 'ELD yozuvlarini 6 oy davomida saqlang' },
-  carrierRespBullet3: { en: 'Provide driver training and support', ru: '��беспечь��е обучение и поддержку водител��й', uz: 'Haydovchilarni o\'qitish va qo\'llab-quvvatlashni ta\'minlang' },
+  carrierRespBullet3: { en: 'Provide driver training and support', ru: 'Обеспечьте обучение и поддержку водител��й', uz: 'Haydovchilarni o\'qitish va qo\'llab-quvvatlashni ta\'minlang' },
   carrierRespBullet4: { en: 'Monitor and correct HOS violations', ru: 'Контролируйте и исправляйте нарушения HOS', uz: 'HOS buzilishlarini kuzatib boring va tuzating' },
   fleetManagementTitle: { en: 'Fleet Management', ru: 'Управление автопарком', uz: 'Parkni boshqarish' },
   fleetManagementSub: { en: 'Master the systematic process of overseeing, coordinating, and optimizing your fleet operations for safety, compliance, and efficiency.', ru: 'Освойте систематический процесс надзора, координации и оптимизации операций вашего автопарка для обеспечения безопасности, соблюдения требований и эффективности.', uz: 'Xavfsizlik, muvofiqlik va samaradorlik uchun park operatsiyalarini nazorat qilish, muvofiqlashtirish va optimallashtirishning tizimli jarayonini o\'zlashtiring.' },
   whatIsFleetManagement: { en: 'What is Fleet Management?', ru: 'Что такое управление автопарком?', uz: 'Parkni boshqarish nima?' },
   fleetManagementDef: { en: 'Fleet management is the systematic process of overseeing, coordinating, and optimizing a group of vehicles (fleet) used by an organization to conduct its operations. The goal is to ensure that vehicles are safe, compliant, cost-effective, efficient, and available when needed, while minimizing operational risks and expenses.', ru: 'Управление автопарком — это систематический процесс надзора, координации и оптимизации группы транспортных средств (автопарка), используемых организацией для ведения своей деятельности. Цель состоит в том, чтобы обеспечить безопасность, соответствие требованиям, экономичность, эффективность и доступность транспортных средств в случае необходимости при минимизации операционных рисков и расходов.', uz: 'Parkni boshqarish - bu tashkilot tomonidan o\'z faoliyatini yuritish uchun foydaniladigan transport vositalari guruhini (parkni) nazorat qilish, muvofiqlashtirish va optimallashtirishning tizimli jarayonidir. Maqsad - operatsion xavf va xarajatlarni minimallashtirish bilan birga transport vositalarining xavfsiz, muvofiq, tejamkor, samarali va kerak bo\'lganda tayyor bo\'lishini ta\'minlashdir.' },
-  fleetManagementApplies: { en: 'Fleet management applies to industries such as transportation, logistics, construction, utilities, emergency services, and government operations.', ru: 'Управление автопарком применяется в таких отраслях, ка�� транспорт, логистика, строительство, коммунальные услуги, аварийно-спасательные службы и государственные операции.', uz: 'Parkni boshqarish transport, logistika, qurilish, kommunal xizmatlar, favqulodda xizmatlar va davlat operatsiyalari kabi sohalarda qo\'llaniladi.' },
+  fleetManagementApplies: { en: 'Fleet management applies to industries such as transportation, logistics, construction, utilities, emergency services, and government operations.', ru: 'Управление автопарком применяется в таких отраслях, как транспорт, логистика, строительство, коммунальные услуги, аварийно-спасательные службы и государственные операции.', uz: 'Parkni boshqarish transport, logistika, qurilish, kommunal xizmatlar, favqulodda xizmatlar va davlat operatsiyalari kabi sohalarda qo\'llaniladi.' },
   coreObjectives: { en: 'Core Objectives', ru: 'Основные цели', uz: 'Asosiy maqsadlar' },
   objSafety: { en: 'Ensuring driver and public safety', ru: 'Обеспечение безопасности водителей и населения', uz: 'Haydovchi va jamoat xavfsizligini ta\'minlash' },
   objCompliance: { en: 'Maintaining regulatory compliance', ru: 'Соблюдение нормативных требований', uz: 'Normativ muvofiqlikni saqlash' },
@@ -470,13 +470,13 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
   ];
 
   return (
-    <nav className="bg-white border-zinc-100 border-b fixed top-2.5 left-0 right-0 z-50 transition-colors duration-500">
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <div className="flex items-center justify-between h-20 gap-8">
+    <nav className="bg-white border-zinc-100 border-b sticky top-0 z-50 transition-colors duration-500">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-20">
           {/* Logo Section */}
-          <div className="flex-shrink-0">
+          <div className="flex items-center flex-0">
             <div 
-              className="flex items-center cursor-pointer hover:opacity-80 transition-opacity" 
+              className="flex-shrink-0 flex items-center cursor-pointer group gap-2" 
               onClick={() => setActiveTab(user?.role === 'admin' ? 'students' : 'home')}
             >
               <img 
@@ -484,12 +484,13 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
                 alt="Logistmate Logo" 
                 className="h-10 w-auto"
               />
+              <span className="text-lg font-bold text-zinc-900 hidden sm:inline">Logistmate</span>
             </div>
           </div>
 
           {/* Navigation Items - Centered */}
           <div className="hidden lg:flex items-center justify-center flex-1">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-1">
               {tabs.map((tab) => (
                 <div 
                   key={tab.id} 
@@ -499,9 +500,9 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
                 >
                   <button
                     onClick={() => !tab.dropdown && setActiveTab(tab.id)}
-                    className={`px-5 py-2.5 rounded-full text-[14px] font-semibold transition-all flex items-center gap-2 relative ${
+                    className={`px-6 py-2.5 rounded-full text-[14px] font-semibold transition-all flex items-center gap-2 relative ${
                       activeTab === tab.id || activeTab.startsWith(`${tab.id}:`)
-                        ? 'bg-[#0099FF] text-white shadow-md'
+                        ? 'bg-[#0099FF] text-white shadow-lg'
                         : 'text-zinc-600 hover:text-zinc-900'
                     }`}
                   >
@@ -509,7 +510,7 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
                     {tab.dropdown && (
                       <ChevronRight 
                         size={14} 
-                        className={`transition-transform duration-300 ${activeDropdown === tab.id ? 'rotate-90' : '0'} ${activeTab === tab.id || activeTab.startsWith(`${tab.id}:`) ? 'text-white' : 'text-zinc-400'}`} 
+                        className={`transition-transform duration-300 ${activeDropdown === tab.id ? 'rotate-90' : 'rotate-0'} ${activeTab === tab.id || activeTab.startsWith(`${tab.id}:`) ? 'text-white' : 'text-zinc-400'}`} 
                       />
                     )}
                   </button>
@@ -552,14 +553,13 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
           </div>
           
           {/* Actions Section - Right Aligned */}
-          <div className="flex items-center justify-end gap-6 flex-shrink-0">
-            {user?.role !== 'admin' && (
-              <img 
-                src="/bigi-study-logo.png" 
-                alt="BIG-I STUDY" 
-                className="h-10 w-auto hidden lg:block"
-              />
-            )}
+          <div className="flex items-center justify-end flex-1 gap-4">
+            <div className="hidden md:flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#0099FF] to-[#0077CC] rounded-2xl">
+              <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center font-bold text-[#0099FF]">
+                БИ
+              </div>
+              <span className="text-white font-bold text-sm">BIG-I STUDY</span>
+            </div>
             {user?.role !== 'admin' && (
               <div className="hidden sm:flex items-center gap-3 relative lang-selector">
                 <button 
@@ -3401,9 +3401,9 @@ const AppContent = () => {
 
   return (
     <LanguageContext.Provider value={{ lang, setLang, t }}>
-      <div className={`min-h-screen transition-colors duration-500 font-sans text-zinc-900 pt-24 ${activeTab === 'tools:typingGame' ? 'bg-white' : 'bg-[#E8F4FE]'}`}>
+      <div className={`min-h-screen transition-colors duration-500 ${activeTab === 'tools:typingGame' ? 'bg-[#323437]' : 'bg-white'} font-sans text-zinc-900`}>
         <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
-        <main className="pb-32 bg-white p-8 shadow-md mx-4">
+        <main className="pb-32">
           <AnimatePresence mode="wait">
             <motion.div
               key={activeTab}
