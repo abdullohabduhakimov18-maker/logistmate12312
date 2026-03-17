@@ -170,7 +170,7 @@ const translations: Translations = {
   level3Title: { en: 'Level 3', ru: 'Уровень 3', uz: '3-daraja' },
   level4Title: { en: 'Level 4', ru: 'Уровень 4', uz: '4-daraja' },
   level1Desc: { en: 'Test your fundamental logistics knowledge', ru: 'Проверьте свои базовые знания логистики', uz: 'Logistika bo\'yicha asosiy bilimlaringizni sinab ko\'ring' },
-  level2Desc: { en: 'Challenge yourself with advanced logistics scenarios', ru: 'Испытайте себя в продвинутых сценариях логис����ики', uz: 'Murakkab logistika ssenariylari bilan o\'zingizni sinab ko\'ring' },
+  level2Desc: { en: 'Challenge yourself with advanced logistics scenarios', ru: 'Испытайте себя в продвинутых сценариях логис������ики', uz: 'Murakkab logistika ssenariylari bilan o\'zingizni sinab ko\'ring' },
   level3Desc: { en: 'Master complex logistics operations management', ru: 'Освойте управление сложными логистическими операциями', uz: 'Murakkab logistika operatsiyalarini boshqarishni o\'zlashtiring' },
   level4Desc: { en: 'Demonstrate mastery of advanced logistics concepts', ru: 'Продемонстрируйте мастерство в продвинутых концепциях логистики', uz: 'Ilg\'or logistika tushunchalari bo\'yicha mahoratingizni namoyish eting' },
   unlockLevel2: { en: 'Complete Level 1 with 90% to unlock Level 2', ru: 'Пройдите уровень 1 на 90%, чтобы разблокировать уровень 2', uz: '2-darajani ochish uchun 1-darajani 90% bilan yakunlang' },
@@ -482,8 +482,9 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
               <img 
                 src="/logistmate-logo.png" 
                 alt="Logistmate Logo" 
-                className="h-16 w-auto"
+                className="h-10 w-auto"
               />
+              <span className="ml-2 text-lg font-bold text-zinc-900">Logistmate</span>
             </div>
           </div>
 
@@ -499,17 +500,17 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
                 >
                   <button
                     onClick={() => !tab.dropdown && setActiveTab(tab.id)}
-                    className={`px-4 py-2.5 rounded-xl text-[15px] font-semibold transition-all flex items-center gap-2 relative ${
+                    className={`px-5 py-2.5 rounded-full text-[14px] font-semibold transition-all flex items-center gap-2 relative ${
                       activeTab === tab.id || activeTab.startsWith(`${tab.id}:`)
-                        ? 'bg-[#000080] text-white shadow-md'
-                        : 'text-zinc-600 hover:text-[#000080] hover:bg-indigo-50/50'
+                        ? 'bg-[#0099FF] text-white shadow-md'
+                        : 'text-zinc-600 hover:text-zinc-900'
                     }`}
                   >
                     {tab.label}
                     {tab.dropdown && (
                       <ChevronRight 
                         size={14} 
-                        className={`transition-transform duration-300 ${activeDropdown === tab.id ? 'rotate-90' : 'rotate-90'} ${activeTab === tab.id || activeTab.startsWith(`${tab.id}:`) ? 'text-white' : 'text-zinc-400'}`} 
+                        className={`transition-transform duration-300 ${activeDropdown === tab.id ? 'rotate-90' : '0'} ${activeTab === tab.id || activeTab.startsWith(`${tab.id}:`) ? 'text-white' : 'text-zinc-400'}`} 
                       />
                     )}
                   </button>
@@ -553,6 +554,14 @@ const Navbar = ({ activeTab, setActiveTab }: { activeTab: string, setActiveTab: 
           
           {/* Actions Section - Right Aligned */}
           <div className="flex items-center justify-end flex-1 gap-4">
+            {user?.role !== 'admin' && (
+              <div className="hidden md:flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#0099FF] to-[#0077CC] rounded-2xl">
+                <div className="w-7 h-7 bg-white rounded-lg flex items-center justify-center font-bold text-[#0099FF] text-xs">
+                  БИ
+                </div>
+                <span className="text-white font-bold text-sm">BIG-I STUDY</span>
+              </div>
+            )}
             {user?.role !== 'admin' && (
               <div className="hidden sm:flex items-center gap-3 relative lang-selector">
                 <button 
